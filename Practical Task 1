@@ -1,3 +1,18 @@
-kwejfbre
-fnutrg
-ruig
+-----------------------HTML-----------------------
+
+<html>
+<body>
+
+<h2>Calculator the number of text</h2>
+
+<p>qwertyuiopasdfghjklzxcvbnm<p>
+
+<p id="demo"></p>
+
+<script>
+let text = "qwertyuiopasdfghjklzxcvbnm";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+
+</body>
+</html>
