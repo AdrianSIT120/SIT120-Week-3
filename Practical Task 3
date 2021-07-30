@@ -1,1 +1,18 @@
+-------------HTML-------------
 
+<html>
+<body>
+
+<h1>Task 3</h1>
+<h2>JavaScript get Methods</h2>
+<p>Example of "getFullYear()" method</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+</script>
+
+</body>
+</html>
