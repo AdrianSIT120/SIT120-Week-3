@@ -1,1 +1,22 @@
+--------------HTML--------------
 
+<html>
+<body>
+
+<h1>Task 2</h1>
+<h2>JavaScript Number Methods</h2>
+
+<p>Using toString() method converts number to string.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 567;
+document.getElementById("demo").innerHTML =
+  x.toString() + "<br>" +
+   (567).toString() + "<br>" +
+   (500 + 67).toString();
+</script>
+
+</body>
+</html>
